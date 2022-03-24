@@ -7,21 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4968D20527EBA498001580FA /* ImagePickerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4968D20427EBA498001580FA /* ImagePickerApp.swift */; };
+		4968D20527EBA498001580FA /* CameraPickerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4968D20427EBA498001580FA /* CameraPickerApp.swift */; };
 		4968D20727EBA498001580FA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4968D20627EBA498001580FA /* ContentView.swift */; };
 		4968D20927EBA499001580FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4968D20827EBA499001580FA /* Assets.xcassets */; };
 		4968D20C27EBA499001580FA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4968D20B27EBA499001580FA /* Preview Assets.xcassets */; };
-		4968D21327EBBFF5001580FA /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4968D21227EBBFF5001580FA /* ImagePicker.swift */; };
+		4968D21327EBBFF5001580FA /* CameraPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4968D21227EBBFF5001580FA /* CameraPicker.swift */; };
 		4968D21527EBF230001580FA /* PhotoPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4968D21427EBF230001580FA /* PhotoPicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4968D20127EBA498001580FA /* ImagePicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImagePicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		4968D20427EBA498001580FA /* ImagePickerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerApp.swift; sourceTree = "<group>"; };
+		4968D20127EBA498001580FA /* CameraPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CameraPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4968D20427EBA498001580FA /* CameraPickerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPickerApp.swift; sourceTree = "<group>"; };
 		4968D20627EBA498001580FA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4968D20827EBA499001580FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4968D20B27EBA499001580FA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		4968D21227EBBFF5001580FA /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		4968D21227EBBFF5001580FA /* CameraPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPicker.swift; sourceTree = "<group>"; };
 		4968D21427EBF230001580FA /* PhotoPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -39,7 +39,7 @@
 		4968D1F827EBA498001580FA = {
 			isa = PBXGroup;
 			children = (
-				4968D20327EBA498001580FA /* ImagePicker */,
+				4968D20327EBA498001580FA /* CameraPicker */,
 				4968D20227EBA498001580FA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -47,22 +47,22 @@
 		4968D20227EBA498001580FA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4968D20127EBA498001580FA /* ImagePicker.app */,
+				4968D20127EBA498001580FA /* CameraPicker.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4968D20327EBA498001580FA /* ImagePicker */ = {
+		4968D20327EBA498001580FA /* CameraPicker */ = {
 			isa = PBXGroup;
 			children = (
-				4968D20427EBA498001580FA /* ImagePickerApp.swift */,
+				4968D20427EBA498001580FA /* CameraPickerApp.swift */,
 				4968D20627EBA498001580FA /* ContentView.swift */,
-				4968D21227EBBFF5001580FA /* ImagePicker.swift */,
+				4968D21227EBBFF5001580FA /* CameraPicker.swift */,
 				4968D21427EBF230001580FA /* PhotoPicker.swift */,
 				4968D20827EBA499001580FA /* Assets.xcassets */,
 				4968D20A27EBA499001580FA /* Preview Content */,
 			);
-			path = ImagePicker;
+			path = CameraPicker;
 			sourceTree = "<group>";
 		};
 		4968D20A27EBA499001580FA /* Preview Content */ = {
@@ -76,9 +76,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4968D20027EBA498001580FA /* ImagePicker */ = {
+		4968D20027EBA498001580FA /* CameraPicker */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4968D20F27EBA499001580FA /* Build configuration list for PBXNativeTarget "ImagePicker" */;
+			buildConfigurationList = 4968D20F27EBA499001580FA /* Build configuration list for PBXNativeTarget "CameraPicker" */;
 			buildPhases = (
 				4968D1FD27EBA498001580FA /* Sources */,
 				4968D1FE27EBA498001580FA /* Frameworks */,
@@ -88,9 +88,9 @@
 			);
 			dependencies = (
 			);
-			name = ImagePicker;
+			name = CameraPicker;
 			productName = ImagePicker;
-			productReference = 4968D20127EBA498001580FA /* ImagePicker.app */;
+			productReference = 4968D20127EBA498001580FA /* CameraPicker.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -108,7 +108,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 4968D1FC27EBA498001580FA /* Build configuration list for PBXProject "ImagePicker" */;
+			buildConfigurationList = 4968D1FC27EBA498001580FA /* Build configuration list for PBXProject "CameraPicker" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -121,7 +121,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4968D20027EBA498001580FA /* ImagePicker */,
+				4968D20027EBA498001580FA /* CameraPicker */,
 			);
 		};
 /* End PBXProject section */
@@ -144,9 +144,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4968D21527EBF230001580FA /* PhotoPicker.swift in Sources */,
-				4968D21327EBBFF5001580FA /* ImagePicker.swift in Sources */,
+				4968D21327EBBFF5001580FA /* CameraPicker.swift in Sources */,
 				4968D20727EBA498001580FA /* ContentView.swift in Sources */,
-				4968D20527EBA498001580FA /* ImagePickerApp.swift in Sources */,
+				4968D20527EBA498001580FA /* CameraPickerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,7 +274,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"ImagePicker/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"CameraPicker/Preview Content\"";
 				DEVELOPMENT_TEAM = 2LK4JE65RJ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -304,7 +304,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"ImagePicker/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"CameraPicker/Preview Content\"";
 				DEVELOPMENT_TEAM = 2LK4JE65RJ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -330,7 +330,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4968D1FC27EBA498001580FA /* Build configuration list for PBXProject "ImagePicker" */ = {
+		4968D1FC27EBA498001580FA /* Build configuration list for PBXProject "CameraPicker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4968D20D27EBA499001580FA /* Debug */,
@@ -339,7 +339,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4968D20F27EBA499001580FA /* Build configuration list for PBXNativeTarget "ImagePicker" */ = {
+		4968D20F27EBA499001580FA /* Build configuration list for PBXNativeTarget "CameraPicker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4968D21027EBA499001580FA /* Debug */,

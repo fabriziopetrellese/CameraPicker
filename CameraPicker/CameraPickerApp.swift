@@ -1,6 +1,6 @@
 //
-//  ImagePickerApp.swift
-//  ImagePicker
+//  CameraPickerApp.swift
+//  CameraPicker
 //
 //  Created by Fabrizio Petrellese on 23/03/22.
 //
@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct ImagePickerApp: App {
+struct CameraPickerApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
