@@ -87,11 +87,16 @@ final class Coordinator: NSObject, UIImagePickerControllerDelegate, UINavigation
         }
     }
 ```
-After creating the Coordinator, the next step you will have to do is to create the makeCoordinator method and return an instance of Coordinator:
+After this, the next 2 steps you will have to do are:
+* Creating the makeCoordinator method and return an instance of Coordinator:
 ```
 func makeCoordinator() -> Coordinator {
         Coordinator(self)
     }
+```
+* Assign the coordinator as the delegate of UIImagePickerController in the makeUIViewController:
+```
+cameraPicker.delegate = context.coordinator
 ```
 ## Project Status
 Project is: complete.
