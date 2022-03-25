@@ -61,7 +61,7 @@ struct ContentView: View {
     }
 }
 ```
-Right now the app will just dismiss the camera and go back to the main screen, so, in order to avoid this, you will have to follow the next 2 steps:
+Right now, when you are going to take a photo, the app will just dismiss the camera and go back to the main screen, without saving the photo, so, in order to avoid this, you will have to follow the next 2 steps:
 * 1: Go back to CameraPicker.swift, and declare these 2 var:
 ```
 @Binding var selectedImage: UIImage
@@ -85,6 +85,12 @@ final class Coordinator: NSObject, UIImagePickerControllerDelegate, UINavigation
 
             parent.presentationMode.wrappedValue.dismiss()
         }
+    }
+```
+After creating the Coordinator, the next step you will have to do is to create the makeCoordinator method and return an instance of Coordinator:
+```
+func makeCoordinator() -> Coordinator {
+        Coordinator(self)
     }
 ```
 ## Project Status
