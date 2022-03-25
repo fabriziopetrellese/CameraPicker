@@ -110,4 +110,3 @@ cameraPicker.delegate = context.coordinator
 ![](images/Info.png)
 ## Project Status
 Project is: complete.
-## Contact
