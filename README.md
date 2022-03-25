@@ -12,11 +12,15 @@ Let's start integrating UIImagePickerController in your project by wrapping the 
 
 `struct ImagePicker: UIViewControllerRepresentable {
     
+    
     func makeUIViewController(context: UIViewControllerRepresentableContext<ImagePicker>) -> UIImagePickerController {
+    
+    
  
         // Return an instance of UIImagePickerController
     }
- 
+    
+    
     func updateUIViewController(_ uiViewController: UIImagePickerController, context: UIViewControllerRepresentableContext<ImagePicker>) {
  
     }
