@@ -105,6 +105,9 @@ So, switch to ContentView and update the .fullScreenCover modifier:
                 .ignoresSafeArea()
         }
 ```
+REMEMBER THAT YOU HAVE TO EDIT YOUR INFO.PLIST TO SPECIFY WHY YOUR APP NEEDS TO USE THE CAMERA:
+
+![](images/Info.png)
 ## Project Status
 Project is: complete.
 ## Contact
