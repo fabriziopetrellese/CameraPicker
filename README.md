@@ -30,9 +30,36 @@ struct CameraPicker: UIViewControllerRepresentable {
     }
 }
 ```
-Next, you will have to create a CameraPicker struct in SwiftUI:
+Once created the CameraPicker, you will have to use it in your ContentView, like this:
 ```
-import SwiftUI
+struct ContentView: View {
+
+    @State private var showCamera = false
+    @State private var image = UIImage()
+
+    var body: some View {
+        VStack {
+
+            Image(uiImage: image)
+                .resizable()
+                .scaledToFit()
+                .frame(width: 1 * UIScreen.main.bounds.width, height: 0.7 * UIScreen.main.bounds.height)
+                .edgesIgnoringSafeArea(.all)
+            
+            Button {
+                showCamera = true
+            } label: {
+                Text("Camera Picker")
+                .font(.title2)
+                .padding()
+            }
+        }
+        .fullScreenCover(isPresented: $showCamera) {
+            CameraPicker(sourceType: .camera)
+                .ignoresSafeArea()
+        }
+    }
+}
 ```
 
 ## Project Status
