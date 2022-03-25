@@ -98,6 +98,13 @@ func makeCoordinator() -> Coordinator {
 ```
 cameraPicker.delegate = context.coordinator
 ```
+So, update the .fullScreenCover modifier:
+```
+.fullScreenCover(isPresented: $showCamera) {
+            CameraPicker(sourceType: .camera, selectedImage: $image)
+                .ignoresSafeArea()
+        }
+```
 ## Project Status
 Project is: complete.
 ## Contact
