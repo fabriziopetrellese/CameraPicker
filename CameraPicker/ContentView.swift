@@ -6,23 +6,6 @@
 //
 
 import SwiftUI
-//import PhotosUI
-
-//struct ContentView: View {
-//    @State private var isPresented = false
-//
-//    var body: some View {
-//        Button {
-//            isPresented.toggle()
-//        } label: {
-//            Text("Present Picker")
-//        }
-//        .sheet(isPresented: $isPresented) {
-//            let configuration = PHPickerConfiguration(photoLibrary: PHPhotoLibrary.shared())
-//            PhotoPicker(configuration: configuration, isPresented: $isPresented)
-//        }
-//    }
-//}
 
 struct ContentView: View {
 

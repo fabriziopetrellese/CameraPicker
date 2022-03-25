@@ -12,7 +12,6 @@
 		4968D20927EBA499001580FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4968D20827EBA499001580FA /* Assets.xcassets */; };
 		4968D20C27EBA499001580FA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4968D20B27EBA499001580FA /* Preview Assets.xcassets */; };
 		4968D21327EBBFF5001580FA /* CameraPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4968D21227EBBFF5001580FA /* CameraPicker.swift */; };
-		4968D21527EBF230001580FA /* PhotoPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4968D21427EBF230001580FA /* PhotoPicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,7 +21,6 @@
 		4968D20827EBA499001580FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4968D20B27EBA499001580FA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4968D21227EBBFF5001580FA /* CameraPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPicker.swift; sourceTree = "<group>"; };
-		4968D21427EBF230001580FA /* PhotoPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +56,6 @@
 				4968D20427EBA498001580FA /* CameraPickerApp.swift */,
 				4968D20627EBA498001580FA /* ContentView.swift */,
 				4968D21227EBBFF5001580FA /* CameraPicker.swift */,
-				4968D21427EBF230001580FA /* PhotoPicker.swift */,
 				4968D20827EBA499001580FA /* Assets.xcassets */,
 				4968D20A27EBA499001580FA /* Preview Content */,
 			);
@@ -143,7 +140,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4968D21527EBF230001580FA /* PhotoPicker.swift in Sources */,
 				4968D21327EBBFF5001580FA /* CameraPicker.swift in Sources */,
 				4968D20727EBA498001580FA /* ContentView.swift in Sources */,
 				4968D20527EBA498001580FA /* CameraPickerApp.swift in Sources */,

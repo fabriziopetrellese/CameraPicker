@@ -46,6 +46,5 @@ struct CameraPicker: UIViewControllerRepresentable {
 
             parent.presentationMode.wrappedValue.dismiss()
         }
-
     }
 }
