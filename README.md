@@ -111,5 +111,5 @@ cameraPicker.delegate = context.coordinator
 ## Project Status
 Project is: complete.
 ## Contacts
-###### Discord: Fabrizio Petrellese#9686
-###### mail: petrellesefabrizio@icloud.com
+Discord: Fabrizio Petrellese#9686
+mail: petrellesefabrizio@icloud.com
