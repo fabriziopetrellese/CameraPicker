@@ -17,10 +17,11 @@ struct ImagePicker: UIViewControllerRepresentable {
     }
  
     func updateUIViewController(_ uiViewController: UIImagePickerController, context: UIViewControllerRepresentableContext<ImagePicker>) {
- 
+    // No code needed here 
     }
 }
 ```
+
 
 ## Project Status
 Project is: complete.
