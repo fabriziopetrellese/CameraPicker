@@ -61,7 +61,32 @@ struct ContentView: View {
     }
 }
 ```
+Right now the app will just dismiss the camera and go back to the main screen, so, in order to avoid this, you will have to follow the next 2 steps:
+* 1: Go back to CameraPicker.swift, and declare these 2 var:
+```
+@Binding var selectedImage: UIImage
+@Environment(\.presentationMode) private var presentationMode
+```
+* 2: Staying in CameraPicker, create the Coordinator class:
+```
+final class Coordinator: NSObject, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
 
+        var parent: CameraPicker
+
+        init(_ parent: CameraPicker) {
+            self.parent = parent
+        }
+
+        func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
+
+            if let image = info[UIImagePickerController.InfoKey.originalImage] as? UIImage {
+                parent.selectedImage = image
+            }
+
+            parent.presentationMode.wrappedValue.dismiss()
+        }
+    }
+```
 ## Project Status
 Project is: complete.
 ## Contact
