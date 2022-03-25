@@ -11,7 +11,8 @@ The camera picker is still only available in UIKit, so if you're working on a Sw
 Let's start integrating UIImagePickerController in your project by wrapping the controller using the UIViewControllerRepresentable protocol and implement the required methods:
 
 `struct ImagePicker: UIViewControllerRepresentable {
-    func makeUIViewController(context: UIViewControllerRepresentableContext<ImagePicker>) -> UIImagePickerController {
+    
+    func makeUIViewController(context: UIViewControllerRepresentableContext<ImagePicker>) -> UIImagePickerController {
  
         // Return an instance of UIImagePickerController
     }
