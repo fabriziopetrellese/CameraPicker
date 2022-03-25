@@ -2,7 +2,7 @@
 //  ContentView.swift
 //  CameraPicker
 //
-//  Created by Fabrizio Petrellese on 23/03/22.
+//  Created by Fabrizio Petrellese on 23/03/22
 //
 
 import SwiftUI
