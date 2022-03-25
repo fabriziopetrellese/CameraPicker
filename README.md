@@ -8,7 +8,7 @@
 ## General Info
 The camera picker is still only available in UIKit, so if you're working on a SwiftUI app, you may need to allow your users to take photos, this project will show you how to integrate UIImagePickerController class into your SwiftUI view.
 ## Explanation
-Let's start creating a new Swift file named CameraPicker and then creating a struct:
+#### Let's start creating a new Swift file named CameraPicker and then creating a struct:
 ```
 import SwiftUI
 
@@ -30,7 +30,7 @@ struct CameraPicker: UIViewControllerRepresentable {
     }
 }
 ```
-Once created the CameraPicker, you will have to use it in your ContentView, like this:
+#### Once created the CameraPicker, you will have to use it in your ContentView, like this:
 ```
 struct ContentView: View {
 
@@ -61,7 +61,7 @@ struct ContentView: View {
     }
 }
 ```
-Right now, when you are going to take a photo, the app will just dismiss the camera and go back to the main screen, without saving the photo, so, in order to avoid this, you will have to follow the next 2 steps:
+#### Right now, when you are going to take a photo, the app will just dismiss the camera and go back to the main screen, without saving the photo, so, in order to avoid this, you will have to follow the next 2 steps:
 * 1: Go back to CameraPicker.swift, and declare these 2 var:
 ```
 @Binding var selectedImage: UIImage
@@ -87,7 +87,7 @@ final class Coordinator: NSObject, UIImagePickerControllerDelegate, UINavigation
         }
     }
 ```
-After this, the next 2 steps you will have to do are:
+#### After this, the next 2 steps you will have to do are:
 * Creating the makeCoordinator method and return an instance of Coordinator:
 ```
 func makeCoordinator() -> Coordinator {
@@ -98,14 +98,14 @@ func makeCoordinator() -> Coordinator {
 ```
 cameraPicker.delegate = context.coordinator
 ```
-So, switch to ContentView and update the .fullScreenCover modifier:
+#### So, switch to ContentView and update the .fullScreenCover modifier:
 ```
 .fullScreenCover(isPresented: $showCamera) {
             CameraPicker(sourceType: .camera, selectedImage: $image)
                 .ignoresSafeArea()
         }
 ```
-REMEMBER THAT YOU HAVE TO EDIT YOUR INFO.PLIST TO SPECIFY WHY YOUR APP NEEDS TO USE THE CAMERA:
+#### REMEMBER THAT YOU HAVE TO EDIT YOUR INFO.PLIST TO SPECIFY WHY YOUR APP NEEDS TO USE THE CAMERA:
 
 ![](images/Info.png)
 ## Project Status
