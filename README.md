@@ -11,7 +11,7 @@
 ## General Info
 The camera picker is still only available in UIKit, so if you're working on a SwiftUI app, you may need to allow your users to take photos, this project will show you how to integrate UIImagePickerController class into your SwiftUI view. When you want your view controller to coordinate with other SwiftUI views, you must provide a Coordinator instance to facilitate those interactions. 
 ## Explanation
-To create a Camera Picker we are going to use UIViewControllerRepresentable instance to create and manage a UIViewController object in our SwiftUI interface. To add your view controller into your SwiftUI interface, create your UIViewControllerRepresentable instance and add it to your SwiftUI interface. The system calls the methods of your custom instance at appropriate times.
+We are going to use UIViewControllerRepresentable instance to create and manage a UIViewController object in our SwiftUI interface. To add your view controller into your SwiftUI interface, create your UIViewControllerRepresentable instance and add it to your SwiftUI interface. The system calls the methods of your custom instance at appropriate times.
 #### Let's start creating a new Swift file named CameraPicker and then creating a struct:
 ```
 import SwiftUI
