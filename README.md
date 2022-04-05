@@ -1,5 +1,8 @@
 # Camera Picker
 ### How to create a camera picker in SwiftUI with UIImagePickerController
+
+![Alt Text](https://media.giphy.com/media/rWGjVdAOkzFZcHFvct/giphy.gif)
+
 ## Table of contents
 * [General Info](#general-info)
 * [Explanation](#explanation)
